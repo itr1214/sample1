@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E13A606202E03A300E9DC4D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E13A605202E03A300E9DC4D /* MapViewController.swift */; };
 		7E58798F202D336300FACB06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E58798E202D336300FACB06 /* AppDelegate.swift */; };
 		7E587991202D336300FACB06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E587990202D336300FACB06 /* ViewController.swift */; };
 		7E587994202D336300FACB06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E587992202D336300FACB06 /* Main.storyboard */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E13A605202E03A300E9DC4D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		7E13A607202E056E00E9DC4D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		7E58798B202D336300FACB06 /* sample1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E58798E202D336300FACB06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E587990202D336300FACB06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		538D9F4CFE4EEB7A41BF8D73 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7E13A607202E056E00E9DC4D /* MapKit.framework */,
 				C44EFEA702B87ABE39244F03 /* Pods_sample1.framework */,
 			);
 			name = Frameworks;
@@ -97,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				7E587990202D336300FACB06 /* ViewController.swift */,
+				7E13A605202E03A300E9DC4D /* MapViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -236,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E587991202D336300FACB06 /* ViewController.swift in Sources */,
+				7E13A606202E03A300E9DC4D /* MapViewController.swift in Sources */,
 				7E58798F202D336300FACB06 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
